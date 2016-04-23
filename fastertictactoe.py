@@ -50,6 +50,10 @@ try:
 	mc.setBlock(cX+6, cY-1, cZ-6, 35, 1)
 	mc.setBlock(cX+6, cY-1, cZ,   35, 1)
 	mc.setBlock(cX+6, cY-1, cZ+6, 35, 1)	
+	
+	mc.postToChat("Welcome to Tic-Tac-Toe!")
+	mc.postToChat("Player One, use stone, Player Two, use dirt")
+	mc.postToChat("Place blocks on the colored dots to make X's and O's")
 
         taken = [0,0,0, 0,0,0, 0,0,0,] 
 
